@@ -1,0 +1,13 @@
+"""
+fstream = open ("something.txt", "r") #file name, mode (in this case read) #link between python and txt file
+#print (fstream) 
+
+content = fstream.read () .split()
+print (content)
+fstream.close ()
+#content has text in a file
+# .read () collects as string
+# .readline () stops at new first newline
+# .readlines () reads all lines as a list
+# .read().split () any white spaces as a separator, makes list of words in txt file
+"""
